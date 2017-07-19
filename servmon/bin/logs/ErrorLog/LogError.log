@@ -1,0 +1,81 @@
+2017-07-19 15:34:19,015 ERROR - Error scheduling jobs: Could not load file or assembly 'K2.MAKRO.ServiceManager.Console' or one of its dependencies. The system cannot find the file specified.
+System.IO.FileNotFoundException: Could not load file or assembly 'K2.MAKRO.ServiceManager.Console' or one of its dependencies. The system cannot find the file specified.
+File name: 'K2.MAKRO.ServiceManager.Console'
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   at System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   at System.Type.GetType(String typeName, Boolean throwOnError)
+   at Quartz.Simpl.SimpleTypeLoadHelper.LoadType(String name) in c:\projects\quartznet\src\Quartz\Simpl\SimpleTypeLoadHelper.cs:line 51
+   at Quartz.Xml.XMLSchedulingDataProcessor.ProcessInternal(String xml) in c:\projects\quartznet\src\Quartz\Xml\XMLSchedulingDataProcessor.cs:line 367
+   at Quartz.Xml.XMLSchedulingDataProcessor.ProcessFile(String fileName, String systemId) in c:\projects\quartznet\src\Quartz\Xml\XMLSchedulingDataProcessor.cs:line 183
+   at Quartz.Xml.XMLSchedulingDataProcessor.ProcessFileAndScheduleJobs(String fileName, String systemId, IScheduler sched) in c:\projects\quartznet\src\Quartz\Xml\XMLSchedulingDataProcessor.cs:line 673
+   at Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin.ProcessFile(JobFile jobFile) in c:\projects\quartznet\src\Quartz\Plugin\Xml\XMLSchedulingDataProcessorPlugin.cs:line 317
+
+=== Pre-bind state information ===
+LOG: DisplayName = K2.MAKRO.ServiceManager.Console
+ (Partial)
+WRN: Partial binding information was supplied for an assembly:
+WRN: Assembly Name: K2.MAKRO.ServiceManager.Console | Domain ID: 1
+WRN: A partial bind occurs when only part of the assembly display name is provided.
+WRN: This might result in the binder loading an incorrect assembly.
+WRN: It is recommended to provide a fully specified textual identity for the assembly,
+WRN: that consists of the simple name, version, culture, and public key token.
+WRN: See whitepaper http://go.microsoft.com/fwlink/?LinkId=109270 for more information and common solutions to this issue.
+LOG: Appbase = file:///D:/_MyWork_/servmon/servmon/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Quartz, Version=2.5.0.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\_MyWork_\servmon\servmon\bin\Debug\servmon.exe.Config
+LOG: Using host configuration file: 
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///D:/_MyWork_/servmon/servmon/bin/Debug/K2.MAKRO.ServiceManager.Console.DLL.
+LOG: Attempting download of new URL file:///D:/_MyWork_/servmon/servmon/bin/Debug/K2.MAKRO.ServiceManager.Console/K2.MAKRO.ServiceManager.Console.DLL.
+LOG: Attempting download of new URL file:///D:/_MyWork_/servmon/servmon/bin/Debug/K2.MAKRO.ServiceManager.Console.EXE.
+LOG: Attempting download of new URL file:///D:/_MyWork_/servmon/servmon/bin/Debug/K2.MAKRO.ServiceManager.Console/K2.MAKRO.ServiceManager.Console.EXE.
+
+2017-07-19 15:36:34,872 ERROR - Error scheduling jobs: Could not load file or assembly 'K2.MAKRO.ServiceManager.Console' or one of its dependencies. The system cannot find the file specified.
+System.IO.FileNotFoundException: Could not load file or assembly 'K2.MAKRO.ServiceManager.Console' or one of its dependencies. The system cannot find the file specified.
+File name: 'K2.MAKRO.ServiceManager.Console'
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   at System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   at System.Type.GetType(String typeName, Boolean throwOnError)
+   at Quartz.Simpl.SimpleTypeLoadHelper.LoadType(String name) in c:\projects\quartznet\src\Quartz\Simpl\SimpleTypeLoadHelper.cs:line 51
+   at Quartz.Xml.XMLSchedulingDataProcessor.ProcessInternal(String xml) in c:\projects\quartznet\src\Quartz\Xml\XMLSchedulingDataProcessor.cs:line 367
+   at Quartz.Xml.XMLSchedulingDataProcessor.ProcessFile(String fileName, String systemId) in c:\projects\quartznet\src\Quartz\Xml\XMLSchedulingDataProcessor.cs:line 183
+   at Quartz.Xml.XMLSchedulingDataProcessor.ProcessFileAndScheduleJobs(String fileName, String systemId, IScheduler sched) in c:\projects\quartznet\src\Quartz\Xml\XMLSchedulingDataProcessor.cs:line 673
+   at Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin.ProcessFile(JobFile jobFile) in c:\projects\quartznet\src\Quartz\Plugin\Xml\XMLSchedulingDataProcessorPlugin.cs:line 317
+
+=== Pre-bind state information ===
+LOG: DisplayName = K2.MAKRO.ServiceManager.Console
+ (Partial)
+WRN: Partial binding information was supplied for an assembly:
+WRN: Assembly Name: K2.MAKRO.ServiceManager.Console | Domain ID: 1
+WRN: A partial bind occurs when only part of the assembly display name is provided.
+WRN: This might result in the binder loading an incorrect assembly.
+WRN: It is recommended to provide a fully specified textual identity for the assembly,
+WRN: that consists of the simple name, version, culture, and public key token.
+WRN: See whitepaper http://go.microsoft.com/fwlink/?LinkId=109270 for more information and common solutions to this issue.
+LOG: Appbase = file:///D:/_MyWork_/servmon/servmon/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Quartz, Version=2.5.0.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\_MyWork_\servmon\servmon\bin\Debug\servmon.exe.Config
+LOG: Using host configuration file: 
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///D:/_MyWork_/servmon/servmon/bin/Debug/K2.MAKRO.ServiceManager.Console.DLL.
+LOG: Attempting download of new URL file:///D:/_MyWork_/servmon/servmon/bin/Debug/K2.MAKRO.ServiceManager.Console/K2.MAKRO.ServiceManager.Console.DLL.
+LOG: Attempting download of new URL file:///D:/_MyWork_/servmon/servmon/bin/Debug/K2.MAKRO.ServiceManager.Console.EXE.
+LOG: Attempting download of new URL file:///D:/_MyWork_/servmon/servmon/bin/Debug/K2.MAKRO.ServiceManager.Console/K2.MAKRO.ServiceManager.Console.EXE.
+
+2017-07-19 15:38:10,710 ERROR - Error scheduling jobs: The job (ExportChequeGroup.ExportChequeJob) referenced by the trigger does not exist.
+Quartz.JobPersistenceException: The job (ExportChequeGroup.ExportChequeJob) referenced by the trigger does not exist.
+   at Quartz.Simpl.RAMJobStore.StoreTrigger(IOperableTrigger newTrigger, Boolean replaceExisting) in c:\projects\quartznet\src\Quartz\Simpl\RAMJobStore.cs:line 425
+   at Quartz.Core.QuartzScheduler.ScheduleJob(ITrigger trigger) in c:\projects\quartznet\src\Quartz\Core\QuartzScheduler.cs:line 761
+   at Quartz.Xml.XMLSchedulingDataProcessor.ScheduleJobs(IScheduler sched) in c:\projects\quartznet\src\Quartz\Xml\XMLSchedulingDataProcessor.cs:line 914
+   at Quartz.Xml.XMLSchedulingDataProcessor.ProcessFileAndScheduleJobs(String fileName, String systemId, IScheduler sched) in c:\projects\quartznet\src\Quartz\Xml\XMLSchedulingDataProcessor.cs:line 674
+   at Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin.ProcessFile(JobFile jobFile) in c:\projects\quartznet\src\Quartz\Plugin\Xml\XMLSchedulingDataProcessorPlugin.cs:line 317

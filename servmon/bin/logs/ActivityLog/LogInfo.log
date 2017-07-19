@@ -1,0 +1,100 @@
+2017-07-19 15:34:14,075 INFO  - Quartz.NET properties loaded from configuration file 'D:\_MyWork_\servmon\servmon\bin\Debug\quartz.config'
+2017-07-19 15:34:14,157 INFO  - Using default implementation for object serializer
+2017-07-19 15:34:14,186 INFO  - Using default implementation for ThreadExecutor
+2017-07-19 15:34:14,287 INFO  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2017-07-19 15:34:14,295 INFO  - Quartz Scheduler v.2.5.0.0 created.
+2017-07-19 15:34:14,319 INFO  - Registering Quartz Job Initialization Plug-in.
+2017-07-19 15:34:14,342 INFO  - RAMJobStore initialized.
+2017-07-19 15:34:14,412 INFO  - Remoting is allowing remote calls
+2017-07-19 15:34:14,417 INFO  - Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+2017-07-19 15:34:14,423 INFO  - Remoting channel registered successfully
+2017-07-19 15:34:14,431 INFO  - Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+2017-07-19 15:34:14,444 INFO  - Scheduler meta-data: Quartz Scheduler (v2.5.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-19 15:34:14,450 INFO  - Quartz scheduler 'ServerScheduler' initialized
+2017-07-19 15:34:14,456 INFO  - Quartz scheduler version: 2.5.0.0
+2017-07-19 15:34:18,737 INFO  - Parsing XML file: D:\_MyWork_\servmon\servmon\bin\Debug\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+2017-07-19 15:34:19,094 INFO  - Scheduler ServerScheduler_$_NON_CLUSTERED started.
+2017-07-19 15:34:19,100 INFO  - Service started successfully
+2017-07-19 15:36:34,162 INFO  - Quartz.NET properties loaded from configuration file 'D:\_MyWork_\servmon\servmon\bin\Debug\quartz.config'
+2017-07-19 15:36:34,234 INFO  - Using default implementation for object serializer
+2017-07-19 15:36:34,264 INFO  - Using default implementation for ThreadExecutor
+2017-07-19 15:36:34,418 INFO  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2017-07-19 15:36:34,424 INFO  - Quartz Scheduler v.2.5.0.0 created.
+2017-07-19 15:36:34,443 INFO  - Registering Quartz Job Initialization Plug-in.
+2017-07-19 15:36:34,464 INFO  - RAMJobStore initialized.
+2017-07-19 15:36:34,568 INFO  - Remoting is allowing remote calls
+2017-07-19 15:36:34,574 INFO  - Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+2017-07-19 15:36:34,581 INFO  - Remoting channel registered successfully
+2017-07-19 15:36:34,588 INFO  - Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+2017-07-19 15:36:34,597 INFO  - Scheduler meta-data: Quartz Scheduler (v2.5.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-19 15:36:34,603 INFO  - Quartz scheduler 'ServerScheduler' initialized
+2017-07-19 15:36:34,608 INFO  - Quartz scheduler version: 2.5.0.0
+2017-07-19 15:36:34,651 INFO  - Parsing XML file: D:\_MyWork_\servmon\servmon\bin\Debug\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+2017-07-19 15:36:34,904 INFO  - Scheduler ServerScheduler_$_NON_CLUSTERED started.
+2017-07-19 15:36:34,913 INFO  - Service started successfully
+2017-07-19 15:38:09,942 INFO  - Quartz.NET properties loaded from configuration file 'D:\_MyWork_\servmon\servmon\bin\Debug\quartz.config'
+2017-07-19 15:38:10,013 INFO  - Using default implementation for object serializer
+2017-07-19 15:38:10,049 INFO  - Using default implementation for ThreadExecutor
+2017-07-19 15:38:10,175 INFO  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2017-07-19 15:38:10,183 INFO  - Quartz Scheduler v.2.5.0.0 created.
+2017-07-19 15:38:10,210 INFO  - Registering Quartz Job Initialization Plug-in.
+2017-07-19 15:38:10,253 INFO  - RAMJobStore initialized.
+2017-07-19 15:38:10,346 INFO  - Remoting is allowing remote calls
+2017-07-19 15:38:10,353 INFO  - Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+2017-07-19 15:38:10,359 INFO  - Remoting channel registered successfully
+2017-07-19 15:38:10,367 INFO  - Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+2017-07-19 15:38:10,378 INFO  - Scheduler meta-data: Quartz Scheduler (v2.5.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-19 15:38:10,384 INFO  - Quartz scheduler 'ServerScheduler' initialized
+2017-07-19 15:38:10,390 INFO  - Quartz scheduler version: 2.5.0.0
+2017-07-19 15:38:10,442 INFO  - Parsing XML file: D:\_MyWork_\servmon\servmon\bin\Debug\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+2017-07-19 15:38:10,673 INFO  - Adding 1 jobs, 1 triggers.
+2017-07-19 15:38:10,688 INFO  - Adding job: sampleGroup.sampleJob
+2017-07-19 15:38:10,739 INFO  - Scheduler ServerScheduler_$_NON_CLUSTERED started.
+2017-07-19 15:38:10,747 INFO  - Service started successfully
+2017-07-19 15:38:54,102 INFO  - Quartz.NET properties loaded from configuration file 'D:\_MyWork_\servmon\servmon\bin\Debug\quartz.config'
+2017-07-19 15:38:54,183 INFO  - Using default implementation for object serializer
+2017-07-19 15:38:54,228 INFO  - Using default implementation for ThreadExecutor
+2017-07-19 15:38:54,322 INFO  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2017-07-19 15:38:54,332 INFO  - Quartz Scheduler v.2.5.0.0 created.
+2017-07-19 15:38:54,352 INFO  - Registering Quartz Job Initialization Plug-in.
+2017-07-19 15:38:54,375 INFO  - RAMJobStore initialized.
+2017-07-19 15:38:54,451 INFO  - Remoting is allowing remote calls
+2017-07-19 15:38:54,458 INFO  - Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+2017-07-19 15:38:54,465 INFO  - Remoting channel registered successfully
+2017-07-19 15:38:54,471 INFO  - Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+2017-07-19 15:38:54,483 INFO  - Scheduler meta-data: Quartz Scheduler (v2.5.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-19 15:38:54,490 INFO  - Quartz scheduler 'ServerScheduler' initialized
+2017-07-19 15:38:54,498 INFO  - Quartz scheduler version: 2.5.0.0
+2017-07-19 15:38:54,547 INFO  - Parsing XML file: D:\_MyWork_\servmon\servmon\bin\Debug\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+2017-07-19 15:38:54,790 INFO  - Adding 1 jobs, 1 triggers.
+2017-07-19 15:38:54,802 INFO  - Adding job: sampleGroup.sampleJob
+2017-07-19 15:38:54,834 INFO  - Scheduler ServerScheduler_$_NON_CLUSTERED started.
+2017-07-19 15:38:54,844 INFO  - Service started successfully
